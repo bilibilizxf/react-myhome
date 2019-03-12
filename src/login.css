@@ -1,0 +1,28 @@
+
+/* 外面的容器 */
+.login-container {
+  position: fixed;
+  top: 0;
+  width:100%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.login-container .login-logo {
+    background-color:greenyellow;
+    text-align: center;
+    height: 240px;
+    line-height: 240px;
+}
+.login-container .login-form{
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+.login-container .login-third{
+    text-align: center;
+
+}
+.login-container .login-third i {
+    margin: 0 30px;
+}

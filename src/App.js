@@ -1,6 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import "./App.css";
+import './App.css';
+// // 导入组件库的样式
+import 'semantic-ui-css/semantic.min.css'
 
 import Login from './login';
 import Main from './module/main';
@@ -10,8 +12,8 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Login} />
-          <Route path="/home" component={Main} />
+          <Route exact path="/" component={Login}/>
+          <Route path="/home" component={Main}/>
         </Switch>
       </BrowserRouter>
     );
